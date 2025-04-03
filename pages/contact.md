@@ -9,7 +9,7 @@ weight: 3
     <section class="alt">
         <h3>Work Address</h3>
         <p>1 Ferris Ct<br>
-        Newark, DE 19711</p>
+        Newark, DE 19702</p>
     </section><hr><br>
     <section>
         <h3>Phone</h3>
