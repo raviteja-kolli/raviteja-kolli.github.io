@@ -24,7 +24,7 @@ Simulation Tools: MATLAB Robotics Toolbox for trajectory generation and visualiz
 
 ### Arm Simulation
 <br>
-<img src="{{ site.url }}{{ site.baseurl }}/assets/project3simulation.jpg"/>
+<img src="{{ site.url }}{{ site.baseurl }}/assets/project3 simulation.jpeg"/>
 <br>
 
 <br>
