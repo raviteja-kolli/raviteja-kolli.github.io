@@ -1,11 +1,11 @@
 ---
-name: 2D Physics Engine From Scratch 
-tools: [Python, Lagrangian Dynamics, Rigid Body Transform, Impact Update]
-image: https://jiasenzheng.github.io/assets/jack.gif
-description: Simulated a planer multi-body dynamics of a jack in the box with external forces and impacts.
+name: Internship at Unlimited Robotics Glimpse 
+tools: [Python, ROS2, RViz, Gazebo, SLAM, API, OpenCV, C++]
+image: https://raviteja-kolli.github.io/assets/Gary.png
+description: Here is my summary of my work during my internship.
 ---
 
-# 2D Physics Engine From Scratch (Jack In the Box) <br><br>
+# Gary the medical assistance robot
 
 
 ### Brief overview
