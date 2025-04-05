@@ -10,11 +10,6 @@ description: Reinforcement Learning-based control system for the UR5 Robotic Arm
 <br>
 The UR5 is very easy to set up and program which gives one of the fastest payback times on the market. This robot can be operational in less than half a day thanks to the simple way of programming with a 3D visualisation. The robot can be moved manually to the right positions, after which it is stored and can be further adjusted on a touchscreen tablet.By using openai_ros, MoveIt, and advanced reinforcement learning algorithms, the robotic arm was trained to follow trajectories efficiently in a simulated environment. The work was executed using ROS and Python interfaces, with results visualized through RViz simulation. Future work aims at enhancing algorithms, optimizing training processes, and deploying the system on real hardware. 
 
-<br>
-### Video demo
-{% include elements/video.html id="YdkDaCQD1MY" %}
-<br>
-
 ### Hardware
 UR5 Robotic Arm
 
@@ -33,7 +28,8 @@ Libraries and Packages Used:
 
 * openai_ros:
 
-Provides an interface for developing reinforcement learning environments in ROS. The Documentation can be found at: <p class="text-center">
+Provides an interface for developing reinforcement learning environments in ROS. The Documentation can be found at: 
+<p class="text-center">
 {% include elements/button.html link="https://wiki.ros.org/openai_ros" text="openai_ros" %}
 </p>
 
@@ -57,15 +53,10 @@ The objective of this project was to train a robotic arm using reinforcement lea
 The approach aimed at simplifying interaction with the robotic arm by setting up joint targets, defining pose goals, generating motion plans, and executing these planned paths through ROS communication channels, with the MoveIt library providing essential functions for smooth and collision-free path planning.
 <br>
 <br>
-<img src="{{ site.url }}{{ site.baseurl }}/assets/basic_control.png"/>
+<img src="{{ site.url }}{{ site.baseurl }}/assets/control.png"/>
 <br>
 
 **Stage 3 - Environment Setup:**
 <br>
 The training environment for the reinforcement learning agent was established using the openai_ros package, incorporating ROS nodes for communication, custom-defined environments for task-specific learning, and enabling the agent to navigate and manipulate the robotic arm within a virtual simulation.
 <br>
-
-<p class="text-center">
-{% include elements/button.html link="https://github.com/JiasenZheng/3d_slam_colored" text="GitHub: colorized cloud pkg" %}
-{% include elements/button.html link="https://github.com/JiasenZheng/velo2rs_calibration" text="GitHub: calibration pkg" %}
-</p>
