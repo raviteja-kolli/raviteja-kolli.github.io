@@ -33,7 +33,9 @@ Libraries and Packages Used:
 
 * openai_ros:
 
-Provides an interface for developing reinforcement learning environments in ROS. The Documentation can be found at: openai_ros
+Provides an interface for developing reinforcement learning environments in ROS. The Documentation can be found at: <p class="text-center">
+{% include elements/button.html link="https://wiki.ros.org/openai_ros" text="openai_ros" %}
+</p>
 
 * MoveIt (Python Interface):
 
