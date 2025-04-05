@@ -7,7 +7,6 @@ description: Here is my summary of my work during my internship.
 
 # Gary the medical assistance robot
 
-
 ### Brief overview
 <br>
 This project simulates a planer multi-body dynamics of a jack in the box. In the simulation, external forces are applied to the box. While the jack is falling freely, it will then experience some collisions with the box's walls.
