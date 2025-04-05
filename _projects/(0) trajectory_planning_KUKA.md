@@ -32,3 +32,7 @@ Simulation Tools: MATLAB Robotics Toolbox for trajectory generation and visualiz
 * Real-Time Adaptability: Incorporate sensor feedback to dynamically adjust trajectories in real time.
 * AI Integration: Use machine learning for predictive motion planning.
 * Industrial Applications: Extend to complex tasks like welding and assembly line automation.
+
+<p class="text-center">
+{% include elements/link.html url="https://github.com/raviteja-kolli/trajectory-planning_KUKA" text="Trajectory Planning KUKA Repository" %}
+</p>
