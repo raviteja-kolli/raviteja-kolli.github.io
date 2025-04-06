@@ -1,19 +1,17 @@
 ---
-name: Youbot Mobile Manipulation
-tools: [Python, Coppliasim, Trajectory Generation]
-image: https://jiasenzheng.github.io/assets/best.gif
+name: Youbot Mobile Pick and Place Manipulation
+tools: [Kinematics, Motion Planning, Path Planning, Python, Coppliasim, Trajectory Generation]
+image: https://raviteja-kolli.github.io/assets/YouBot_Homepage.gif
 description: Controlled a Youbot to pick and place a block with user-specified positions and then simulated it in Coppeliasim.
 ---
 
-# Youbot Mobile Manipulation <br><br>
+# Youbot Mobile Pick and Place Manipulation <br><br>
 
 ### Brief Overview
 <br>
 This project aims to control a Youbot to pick and place a block with user-specific positions and then simulate it in Coppeliasim. The algorithm first generates a reference traject of the end-effector and then applies feedback control to manipulate the Youbot.
-<br><br>
-### Video demo
-{% include elements/video.html id="tw601obYkuU" %}
 <br>
+
 ### Algorithm description
 <br>
 The **NextState** function calculates the robot's configuration at the next time step using the first-order Euler method.
@@ -67,5 +65,5 @@ Three situations were considered as results.
 
 
 <p class="text-center">
-{% include elements/button.html link="https://github.com/JiasenZheng/Youbot_Mobile_Manipulation" text="GitHub" %}
+{% include elements/button.html link="https://github.com/raviteja-kolli/Youbot_pickplace_manipulation" text="GitHub" %}
 </p>
